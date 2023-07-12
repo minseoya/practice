@@ -7,7 +7,7 @@ function solution(cacheSize, cities) {
   let answer = 0;
 
   cities.forEach((city) => {
-      let lowcity = city.toLowerCase()
+    let lowcity = city.toLowerCase()
     const idx = cache.indexOf(lowcity);
     if (idx === -1) {
       // cache에 도시가 없는 경우
