@@ -23,8 +23,3 @@ function solution(progresses, speeds) {
 
     return answer;
 }
-
-// Example
-const progresses = [93, 30, 55];
-const speeds = [1, 30, 5];
-console.log(solution(progresses, speeds)); // Output: [2, 1]
