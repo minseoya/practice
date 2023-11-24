@@ -1,3 +1,4 @@
+
 function solution(progresses, speeds) {
     let days = progresses.map((num,i)=>Math.ceil((100-num)/speeds[i]));
    
